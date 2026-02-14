@@ -1,0 +1,16 @@
+/* Day 1: CSS Basics */
+/* Topics: CSS Syntax, Selectors, Types of CSS, Comments */
+
+h4{
+    color: hotpink;
+}
+#heading-id{
+    color: tomato;
+}
+.heading-class{
+    color: maroon;
+}
+
+article{
+    color: forestgreen;
+}
