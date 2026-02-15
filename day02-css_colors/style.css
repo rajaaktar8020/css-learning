@@ -1,0 +1,29 @@
+/* Day 2: Colors*/
+/* Topics: Different types of color theory */
+
+/* Named colors like black, red, green, hotpink */
+h1{
+    color: hotpink;
+}
+
+/* Used of hex code (#......) used A-F and 0-9 to fill this dot and
+ generate hex code for ex- #0000ff is hex code for blue color */
+h4{
+    color: #0000ff;
+}
+
+/* Used of rgb color (...) used 0-255 to fill this 3 dot and genarte rgb . just like - rgb(255,0,0) is for red color  */
+h2{
+    color: rgb(255,0,0);
+}
+
+/* Used of rgba color where with rgb a additionl alpha value(a) add which define tranperency a value belong from 0.0 to 1.0 */
+h5{
+    color: rgba(255,0,0,0.5);
+}
+
+/* Another color mainly brightness adjustment hsl(hue(0-360),saturation(0-100%),lightness(0-100%)) 
+also hsla which is hsl with alpha value also exist.  */
+p{
+    color: hsla(270,80%,30%,0.2);
+}
