@@ -1,0 +1,54 @@
+/* Day 3: Typography & Text Styling */
+/* Topics: Fonts, Backgrounds, Text Styling, CSS Units (px, %, rem, em) */
+
+
+/* Background properties */
+body{
+    background-color: #e1eaa5;
+}
+
+#background-img{
+    height: 400px;
+    width: 500px;
+    background-image: url(media/samurai-batman-red-moon-desktop-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* About fonts */
+.heading{
+    background-color: indianred;
+    font-family: Tahoma,serif;
+    font-size:32px;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+/* About texts styling */
+
+.para{
+    background-color: chocolate;
+    text-align: justify;
+    text-decoration:underline;
+    text-transform: capitalize;
+    line-height: 30px;
+    letter-spacing:2px;
+}
+
+/* About css units */
+/* Absulate units */
+#head{
+    font-size: 36px;
+}
+/* Relative units */
+#units{
+    background-color: palevioletred;
+    width: 50%;
+}
+#body{
+    font-size: 1.5em;
+}
+#root{
+    font-size: 2rem;
+}
