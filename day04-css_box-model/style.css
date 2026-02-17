@@ -1,0 +1,36 @@
+/* Day 4: Box Model & Spacing */
+/* Topics: Box Model, Padding, Margin, Border, Width & Height */
+
+#first-box{
+    width: 20vw;
+    height: 15vh;
+    background-color: hotpink;
+    text-align: center;
+    padding-top: 30px;
+    color: #b6ff00;
+    border-radius:10px;
+    margin-bottom: 5px;
+}
+#second-box{
+    width: 20vw;
+    height: 15vh;
+    background-color:olivedrab;
+    text-align: center;
+    padding-top: 30px;
+    color: #b6ff00;
+    border-radius:10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid blue;
+}
+#third-box{
+    width: 20vw;
+    height: 15vh;
+    background-color:chocolate;
+    text-align: center;
+    /* padding-top: 30px; */
+    color: #b6ff00;
+    border-radius:10px;
+    margin-top: 5px;
+    padding: 10px 0px 0px 20px;
+}
