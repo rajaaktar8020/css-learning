@@ -7,7 +7,7 @@ This repository contains my daily CSS3 learning & practice files.
 - Day 3: Background Properties, Fonts,Text Styling, CSS Units {px, %, em, rem}.
 - Day 4: Box Model{Padding, Margin, Border, Width & Height}
 - Day 5: Display Property, Flexbox Basics, Positioning.
-
+- Day 6: Mini Project {Layout Practice & UI Card Design}
  
  
 Learning step by step 💪
