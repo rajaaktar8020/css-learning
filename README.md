@@ -8,6 +8,7 @@ This repository contains my daily CSS3 learning & practice files.
 - Day 4: Box Model{Padding, Margin, Border, Width & Height}
 - Day 5: Display Property, Flexbox Basics, Positioning.
 - Day 6: Mini Project {Layout Practice & UI Card Design}
+- Day 7: Display Property, Positioning (static, relative, absolute, fixed, sticky), Flexbox
  
  
 Learning step by step 💪
