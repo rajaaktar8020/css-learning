@@ -1,0 +1,61 @@
+/* Day 7: Layout Advanced */
+/* Topics: Display Property, Positioning (static, relative, absolute, fixed, sticky), Flexbox  */
+
+/* universal css boilerplate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-box{
+    position: relative;
+    height: 600px;
+    width: 1000px;
+    border: 2px solid rgb(83, 83, 239);
+}
+#sup-box{
+    height: 1000px;
+    width: 1000px;
+    border: 2px solid rgb(238, 39, 85);
+}
+/* convert inline element to inline-block and add style, by default there position static */
+.box{
+    background-color: deeppink;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 5px;
+    position: static;
+}
+
+/* making box2 position-fixed which accoding to viewport position but their actual postion occupy */
+#box2{
+    position: fixed;
+    top: 400px;
+    left: 880px;
+    
+}
+
+/* making box1 position-sticky which accoding to parent position  but their actual postion not occupy */
+#box1{
+    position: sticky;
+    top: 200px;
+    left: 900px;
+}
+
+#box3{
+    position: absolute;
+    top: 200px;
+}
+
+#box4{
+    position: relative;
+    left: 10px;
+    top: 50px  ;
+    background-color: gold;
+}
+#box5{
+    top: 200px;
+}

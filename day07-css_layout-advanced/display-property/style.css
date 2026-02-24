@@ -1,0 +1,90 @@
+/* Day 7: Layout Advanced */
+/* Topics: Display Property, Positioning (static, relative, absolute, fixed, sticky), Flexbox  */
+
+/* universal css boilerplate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* adding style to block element which have already display block */
+#block {
+    background-color: lightsalmon;
+    margin: 10px;
+    padding: 5px;
+    display: block;
+}
+
+/* apply custom w & h to block element */
+#block {
+    height: 60px;
+    width: 200px;
+}
+
+/* adding style to inline element  */
+#inline1 {
+    background-color: lightsalmon;
+    margin: 10px;
+    padding: 5px;
+}
+
+/* apply custom w & h to inline element which not worked */
+#inline1 {
+    height: 60px;
+    width: 200px;
+    /* margin-top: 20px; */
+}
+
+#inline2 {
+    background-color: rgb(106, 164, 244);
+    margin: 10px;
+    padding: 5px;
+    height: 60px;
+    width: 200px;
+}
+
+#separation {
+    width: 1000px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+    background-color: gold;
+}
+
+/* adding style to inline-block element */
+#inline3 {
+    background-color: lightsalmon;
+    margin: 10px;
+    padding: 5px;
+}
+
+#inline4 {
+    background-color: rgb(106, 164, 244);
+    margin: 10px;
+    padding: 5px;
+}
+
+/* convert to inline to inline-block when covert you see margin top and buttom work */
+.inline-block {
+    display: inline-block;
+}
+
+/* adding w & h  */
+.inline-block {
+    height: 50px;
+    width: 200px;
+}
+
+#display-none {
+    width: 1000px;
+    height: 100px;
+    margin: 10px;
+    padding: 5px;
+    background-color: gold;
+}
+
+/* by applying display none will vanished the gold div b/w two h2  */
+#display-none{
+    display: none;
+}
